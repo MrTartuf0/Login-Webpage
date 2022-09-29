@@ -1,0 +1,105 @@
+/* Font per la pagina */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&family=Press+Start+2P&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Tolgo i margini dalla pagina */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(201, 100%, 90%) ;
+    font-family: 'Poppins';
+}
+
+/* Centro l'interfaccia per il login utilizando flex-box */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.login-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 0px 0px;
+}
+
+.login-padding{
+    padding: 30px;
+    width: 350px;
+}
+
+form{
+    width: 100%;
+}
+
+h2{
+    color: gray;
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+input::placeholder{
+    font-family: 'Poppins';
+}
+
+button{
+    font-family: 'Poppins';
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background-color: #0066ff;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+hr{
+    width: 100%;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: #0066ff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.gia{
+    padding: 30px;
+}
+
+.incorretto{
+    padding-top: 10px;
+    color: tomato;
+    font-size: 1em;
+}
